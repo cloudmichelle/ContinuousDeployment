@@ -25,7 +25,7 @@ namespace ContinuousWeb.Controllers
 
         public IActionResult Contact()
         {
-            ViewData["Message"] = "Your contact page.";
+            ViewData["Message"] = "Your contact page is ready.";
 
             return View();
         }
